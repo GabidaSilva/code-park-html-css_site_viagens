@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    font-family: "Nunito", system-ui;
+    --color-1:#c9e3ef;
+    --color-2:#4e8dd5;
+    --color-3:#F2E3B3;
+    --color-4:#BF6517;
+    --color-5:#D9A679;
+    --color-6:#000000;
+    --color-7:#ffffff;
+}
+*{
+    margin: 0%;
+    padding:0%
+}
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color:var(--color-1)
+}
+header {
+    background-color:var(--color-7);
+    color: var(--color-3);
+    display: flex;
+}
+.header_nav{
+    display: flex;
+    gap: 30px;
+    margin-left: 10%;
+    padding: 1.5%;
+}
+.link{
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--color-6);
+    justify-content:first baseline;
+    gap:5%;
+}
+h1 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    margin: 3%;
+    padding-right: 2%;
+}
+h2{
+    font-size: 2.3rem;
+    margin: 2%;
+}
+p{
+    font-size: 1.3rem;
+    margin: 2%;
+}
+footer {
+    background-color: var(--color-7);
+    color:var(--color-3);
+}
+.icon{
+    width: 4%;
+    height:  4%;
+}
+.logo_color{
+    margin-left: 2%;
+}
+.logo_black{
+    margin-left: 2%;
+}
